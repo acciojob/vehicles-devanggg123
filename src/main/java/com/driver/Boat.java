@@ -12,7 +12,10 @@ public class Boat implements WaterVehicle {
     }
 
     public static void main(String[] args){
+     Boat ob=new Boat();
 
+     ob.getVehicleName();
+        ob.getVehicleCapacity();
     }
 
 }
